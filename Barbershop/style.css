@@ -1,0 +1,96 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  
+
+height: auto;
+}
+
+.popup{
+   
+    width: 450px;
+    padding: 60px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 40%;
+    top: 50%;
+    display: none;
+
+}
+
+.nav{
+    width: 100%;
+    display: inline;
+    font-size: 500px;
+    color: rgb(246, 255, 0);
+    opacity: 50%;
+
+  }
+
+.popup button{
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer; 
+
+}
+
+/* Style the navigation menu */
+.navbar {
+    width: 100%;
+    
+    background-color: rgb(59, 59, 57);
+    overflow: auto;
+    opacity: 50%;
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float:left;
+    padding: 12px;
+    color: #F5F5DC;
+    text-decoration:wavy;
+    font-size: 27px;
+    width: 30%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Style the current/active link */
+  .navbar a.active {
+    background-color: none;
+  }
+  
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+  
+  .bodyInfo{
+    font-size: 70px;
+    color: rgb(241, 243, 239);
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+
+  }
